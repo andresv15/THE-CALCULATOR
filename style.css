@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, grey, blue);
+    background: linear-gradient( sandyBrown, saddleBrown);
 }
 .calculator-grid {
     display: grid;
@@ -20,17 +20,17 @@ body {
 }
 
 .calculator-grid > button:hover {
-    background-color: #a9a9a9;
-    color: hover purple;
+    background-color: goldenrod;
+    color: hover;
 }
 .span-two {
     grid-column:  span 2;
     color: #adf802;
-    background-color: rgba(139, 0, 139,0.8);
+    background-color: gray;
 }
 .output {
     grid-column: 1/-1;
-    background-color: gray;
+    background-color: silver;
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
