@@ -38,7 +38,7 @@
 }
 .output {
     color: red;
-    font-size; 5rem;
+    font-size; 4rem;
     grid-column: 1/-1;
     background-color: silver;
     display: flex;
