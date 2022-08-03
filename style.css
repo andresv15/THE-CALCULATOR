@@ -38,7 +38,7 @@
 }
 .output {
     color: red;
-    font-size; 4rem;
+    font-size; 5rem;
     grid-column: 1/-1;
     background-color: silver;
     display: flex;
@@ -52,6 +52,7 @@
 .output .previous-operand {
     color: black;
     font-size: 4rem;
+ 
 }
 .ouput .current-operand {
     color: black;
