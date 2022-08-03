@@ -1,5 +1,7 @@
 
-*, *::before, *::after {
+
+
+, *::before, *::after {
     box-sizing: border-box;
     font-family: Gotham Rounded, sans-serif;
     font-weight: normal;
@@ -38,7 +40,7 @@
 }
 .output {
     color: red;
-    font-size; 5rem;
+    font-size: 5rem;
     grid-column: 1/-1;
     background-color: silver;
     display: flex;
@@ -52,12 +54,8 @@
 .output .previous-operand {
     color: black;
     font-size: 4rem;
- 
 }
 .ouput .current-operand {
     color: black;
     font-size: 4rem;
 }
-
-
-
